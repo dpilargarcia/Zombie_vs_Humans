@@ -1,0 +1,52 @@
+body {
+	background:url('imagenes/fondo.gif');
+	background-color:#000000;
+}
+
+h1, h3{
+	color:#610B0B;
+}
+aside {
+	float: left;
+	clear: left;
+	margin:0em;
+	padding:5em;
+	text-align: center;
+}
+
+ul {
+	color:#ffffff;
+	text-align: center;
+}
+
+section {
+	background-color:#000000;
+	border:5px solid;
+	border-color:#000000;
+	border-radius:15px;
+	margin:2em;
+	padding:1em;
+	text-align: center;
+}
+
+canvas {
+	background:url('imagenes/escenario.jpg');
+	color:#ffffff;
+	border:5px solid;
+	border-color:#610B0B;
+	border-radius:15px;
+}
+
+p {
+	padding:0.1em;
+	color:#610B0B;
+}
+
+button {
+	margin:0em;
+	color:#610B0B;
+}
+
+#zombie, #human, #sangre {
+	display:none;
+}
